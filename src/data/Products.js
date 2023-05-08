@@ -1,8 +1,8 @@
-export const Products = [
+const Products = [
   {
     id: "1",
     name: "AC Milan Home Jersey",
-    Image: require("../assets/images/ac-milan1.jpg"),
+    Image: require("../../assets/images/ac-milan1.jpg"),
     club: "AC Milan",
     league: "Serie A",
     description:
@@ -10,14 +10,13 @@ export const Products = [
     size: ["S", "M", "L", "XL", "2XL"],
     price: 54000,
     countInStock: 5,
-    rating: 4.5,
+    rating: 3.5,
     numReviews: 5,
   },
   {
     id: "2",
     name: "AC Milan Away Jersey",
-    Image: require("../assets/images/ac-milan2.jpg"),
-    club: "AC Milan",
+    Image: require("../../assets/images/ac-milan2.jpg"),
     league: "Serie A",
     description:
       "This is the AC Milan authentic away jersey for the 2022-2023 season with Ibrahimovic 11 printing. The red and black stripes on a white background from the legendary Away Jerseys of the past have inspired Puma's design for the 2022/23 season. A look both contemporary and authentic that transports us back to the 1960s and to the glory of the 1980s-90s. A pattern with seven red and black stripes for each of the Champions League cups won by the club to express enthusiasm and the desire to win. We are the voice, ready to make our mark on any field.",
@@ -30,7 +29,7 @@ export const Products = [
   {
     id: "3",
     name: "AC Milan Third Jersey",
-    Image: require("../assets/images/ac-milan3.jpg"),
+    Image: require("../../assets/images/ac-milan3.jpg"),
     club: "AC Milan",
     league: "Serie A",
     description:
@@ -44,7 +43,7 @@ export const Products = [
   {
     id: "4",
     name: "Arsenal Home Jersey",
-    Image: require("../assets/images/arsenal1.jpg"),
+    Image: require("../../assets/images/arsenal1.jpg"),
     club: "Arsenal",
     league: "Premier League",
     description:
@@ -52,13 +51,13 @@ export const Products = [
     size: ["S", "M", "L", "XL", "2XL"],
     price: 45000,
     countInStock: 10,
-    rating: 4.8,
+    rating: 4.0,
     numReviews: 14,
   },
   {
     id: "5",
     name: "Arsenal Third Jersey",
-    Image: require("../assets/images/arsenal2.jpg"),
+    Image: require("../../assets/images/arsenal2.jpg"),
     club: "Arsenal",
     league: "Premier League",
     description:
@@ -66,13 +65,13 @@ export const Products = [
     size: ["S", "M", "L", "XL", "2XL"],
     price: 42000,
     countInStock: 8,
-    rating: 4.4,
+    rating: 3,
     numReviews: 9,
   },
   {
     id: "6",
     name: "AS Monaco Home Jersey",
-    Image: require("../assets/images/as-monaco1.jpg"),
+    Image: require("../../assets/images/as-monaco1.jpg"),
     club: "AS Monaco",
     league: "Ligue 1",
     description:
@@ -86,7 +85,7 @@ export const Products = [
   {
     id: "7",
     name: "AS Monaco Away Jersey",
-    Image: require("../assets/images/as-monaco2.jpg"),
+    Image: require("../../assets/images/as-monaco2.jpg"),
     club: "AS Monaco",
     league: "Ligue 1",
     description:
@@ -100,7 +99,7 @@ export const Products = [
   {
     id: "8",
     name: "AS Roma Home Jersey",
-    Image: require("../assets/images/as-roma1.jpg"),
+    Image: require("../../assets/images/as-roma1.jpg"),
     club: "AS Roma",
     league: "Serie A",
     description:
@@ -108,13 +107,13 @@ export const Products = [
     size: ["S", "M", "L", "XL", "2XL"],
     price: 44500,
     countInStock: 12,
-    rating: 4.7,
+    rating: 5.0,
     numReviews: 5,
   },
   {
     id: "9",
     name: "AS Roma Away Jersey",
-    Image: require("../assets/images/as-roma2.jpg"),
+    Image: require("../../assets/images/as-roma2.jpg"),
     club: "AS Roma",
     league: "Serie A",
     description:
@@ -128,7 +127,7 @@ export const Products = [
   {
     id: "10",
     name: "Athletic Bilbao Home Jersey",
-    Image: require("../assets/images/athletic-bilbao.jpg"),
+    Image: require("../../assets/images/athletic-bilbao1.jpg"),
     club: "Athletic Bilboa",
     league: "La Liga",
     description:
@@ -142,7 +141,7 @@ export const Products = [
   {
     id: "11",
     name: "Atlético de Madrid Home Jersey",
-    Image: require("../assets/images/Atlético-de-Madrid1.jpg"),
+    Image: require("../../assets/images/atlético-de-madrid1.jpg"),
     club: "Atlético de Madrid",
     league: "La Liga",
     description:
@@ -156,7 +155,7 @@ export const Products = [
   {
     id: "12",
     name: "Atlético de Madrid Away Jersey",
-    Image: require("../assets/images/Atlético-de-Madrid2.jpg"),
+    Image: require("../../assets/images/atlético-de-madrid2.jpg"),
     club: "Atlético de Madrid",
     league: "La Liga",
     description:
@@ -170,7 +169,7 @@ export const Products = [
   {
     id: "13",
     name: "FC Barcelona Home Jersey",
-    Image: require("../assets/images/barcelona1.jpg"),
+    Image: require("../../assets/images/barcelona1.jpg"),
     club: "FC Barcelona",
     league: "La Liga",
     description:
@@ -178,13 +177,13 @@ export const Products = [
     size: ["S", "M", "L", "XL", "2XL"],
     price: 55500,
     countInStock: 18,
-    rating: 4.6,
+    rating: 3,
     numReviews: 15,
   },
   {
     id: "14",
     name: "FC Barcelona Away Jersey",
-    Image: require("../assets/images/barcelona2.jpg"),
+    Image: require("../../assets/images/barcelona2.jpg"),
     club: "FC Barcelona",
     league: "La Liga",
     description:
@@ -198,7 +197,7 @@ export const Products = [
   {
     id: "15",
     name: "Borussia Dortmund Home Jersey",
-    Image: require("../assets/images/borussia-dortmund1.jpg"),
+    Image: require("../../assets/images/borussia-dortmund1.jpg"),
     club: "Borussia  Dortmund",
     league: "Bundesliga",
     description:
@@ -212,7 +211,7 @@ export const Products = [
   {
     id: "16",
     name: "Borussia Dortmund Away Jersey",
-    Image: require("../assets/images/borussia-dortmund2.jpg"),
+    Image: require("../../assets/images/borussia-dortmund2.jpg"),
     club: "Borussia  Dortmund",
     league: "Bundesliga",
     description:
@@ -226,7 +225,7 @@ export const Products = [
   {
     id: "17",
     name: "Chelsea Home Jersey",
-    Image: require("../assets/images/chelsea1.jpg"),
+    Image: require("../../assets/images/chelsea1.jpg"),
     club: "Chelsea",
     league: "Premier League",
     description:
@@ -240,7 +239,7 @@ export const Products = [
   {
     id: "18",
     name: "Chelsea Away Jersey",
-    Image: require("../assets/images/chelsea2.jpg"),
+    Image: require("../../assets/images/chelsea2.jpg"),
     club: "Chelsea",
     league: "Premier League",
     description:
@@ -254,7 +253,7 @@ export const Products = [
   {
     id: "19",
     name: "Eintracht Frankfurt Home Jersey",
-    Image: require("../assets/images/eintracht-frankfurt1.jpg"),
+    Image: require("../../assets/images/eintracht-frankfurt1.jpg"),
     club: "Eintracht Frankfurt",
     league: "Bundesliga",
     description:
@@ -268,7 +267,7 @@ export const Products = [
   {
     id: "20",
     name: "FC Bayern Home Jersey",
-    Image: require("../assets/images/fc-bayern1.jpg"),
+    Image: require("../../assets/images/fc-bayern1.jpg"),
     club: "FC Bayern",
     league: "Bundesliga",
     description:
@@ -282,7 +281,7 @@ export const Products = [
   {
     id: "21",
     name: "FC Bayern Away Jersey",
-    Image: require("../assets/images/fc-bayern2.jpg"),
+    Image: require("../../assets/images/fc-bayern2.jpg"),
     club: "FC Bayern",
     league: "Bundesliga",
     description:
@@ -290,13 +289,13 @@ export const Products = [
     size: ["S", "M", "L", "XL", "2XL"],
     price: 48000,
     countInStock: 15,
-    rating: 4.5,
+    rating: 2.5,
     numReviews: 5,
   },
   {
     id: "22",
     name: "Hertha Berlin Home Jersey",
-    Image: require("../assets/images/hertha-berlin1.jpg"),
+    Image: require("../../assets/images/hertha-berlin1.jpg"),
     club: "Hertha Berlin",
     league: "Bundesliga",
     description:
@@ -310,7 +309,7 @@ export const Products = [
   {
     id: "23",
     name: "Inter Milan Home Jersey",
-    Image: require("../assets/images/inter-milan1.jpg"),
+    Image: require("../../assets/images/inter-milan1.jpg"),
     club: "Inter Milan",
     league: "Serie A",
     description:
@@ -324,7 +323,7 @@ export const Products = [
   {
     id: "24",
     name: "Inter Milan Away Jersey",
-    Image: require("../assets/images/inter-milan2.jpg"),
+    Image: require("../../assets/images/inter-milan2.jpg"),
     club: "Inter Milan",
     league: "Serie A",
     description:
@@ -338,7 +337,7 @@ export const Products = [
   {
     id: "25",
     name: "Juventus Home Jersey",
-    Image: require("../assets/images/juventus1.jpg"),
+    Image: require("../../assets/images/juventus1.jpg"),
     club: "Juventus",
     league: "Serie A",
     description:
@@ -352,7 +351,7 @@ export const Products = [
   {
     id: "26",
     name: "Juventus Away Jersey",
-    Image: require("../assets/images/juventus2.jpg"),
+    Image: require("../../assets/images/juventus2.jpg"),
     club: "Juventus",
     league: "Serie A",
     description:
@@ -366,7 +365,7 @@ export const Products = [
   {
     id: "27",
     name: "Lille Home Jersey",
-    Image: require("../assets/images/lille1.jpg"),
+    Image: require("../../assets/images/lille1.jpg"),
     club: "Lille",
     league: "Ligue 1",
     description:
@@ -380,7 +379,7 @@ export const Products = [
   {
     id: "28",
     name: "Lille Away Jersey",
-    Image: require("../assets/images/lille2.jpg"),
+    Image: require("../../assets/images/lille2.jpg"),
     club: "Lille",
     league: "Ligue 1",
     description:
@@ -394,7 +393,7 @@ export const Products = [
   {
     id: "29",
     name: "Liverpool Home Jersey",
-    Image: require("../assets/images/liverpool1.jpg"),
+    Image: require("../../assets/images/liverpool1.jpg"),
     club: "Liverpool",
     league: "Premier League",
     description:
@@ -408,7 +407,7 @@ export const Products = [
   {
     id: "30",
     name: "Liverpool Away Jersey",
-    Image: require("../assets/images/liverpool2.jpg"),
+    Image: require("../../assets/images/liverpool2.jpg"),
     club: "Liverpool",
     league: "Premier League",
     description:
@@ -422,7 +421,7 @@ export const Products = [
   {
     id: "31",
     name: "Manchester City Home Jersey",
-    Image: require("../assets/images/Manchester-City1.jpg"),
+    Image: require("../../assets/images/manchester-city1.jpg"),
     club: "Manchester City",
     league: "Premier League",
     description:
@@ -436,7 +435,7 @@ export const Products = [
   {
     id: "32",
     name: "Manchester City Away Jersey",
-    Image: require("../assets/images/Manchester-City2.jpg"),
+    Image: require("../../assets/images/manchester-city2.jpg"),
     club: "Manchester City",
     league: "Premier League",
     description:
@@ -444,13 +443,13 @@ export const Products = [
     size: ["S", "M", "L", "XL", "2XL"],
     price: 55000,
     countInStock: 17,
-    rating: 4.5,
+    rating: 1.5,
     numReviews: 9,
   },
   {
     id: "33",
     name: "Manchester United Home Jersey",
-    Image: require("../assets/images/Manchester-united1.jpg"),
+    Image: require("../../assets/images/manchester-united1.jpg"),
     club: "Manchester United",
     league: "Premier League",
     description:
@@ -464,7 +463,7 @@ export const Products = [
   {
     id: "34",
     name: "Manchester United Away Jersey",
-    Image: require("../assets/images/Manchester-united2.jpg"),
+    Image: require("../../assets/images/manchester-united2.jpg"),
     club: "Manchester United",
     league: "Premier League",
     description:
@@ -478,7 +477,7 @@ export const Products = [
   {
     id: "35",
     name: "Olympique de Marseille Home Jersey",
-    Image: require("../assets/images/Olympique-de-Marseille1.jpg"),
+    Image: require("../../assets/images/olympique-de-marseille1.jpg"),
     club: "Olympique de Marseille",
     league: "Ligue 1",
     description:
@@ -492,7 +491,7 @@ export const Products = [
   {
     id: "36",
     name: "Olympique de Marseille Away Jersey",
-    Image: require("../assets/images/Olympique-de-Marseille2.jpg"),
+    Image: require("../../assets/images/olympique-de-marseille2.jpg"),
     club: "Olympique de Marseille",
     league: "Ligue 1",
     description:
@@ -506,7 +505,7 @@ export const Products = [
   {
     id: "37",
     name: "Olympique Lyon Home Jersey",
-    Image: require("../assets/images/Olympique-Lyon1.jpg"),
+    Image: require("../../assets/images/olympique-lyon1.jpg"),
     club: "Olympique Lyon",
     league: "Ligue 1",
     description:
@@ -514,13 +513,13 @@ export const Products = [
     size: ["S", "M", "L", "XL", "2XL"],
     price: 49000,
     countInStock: 15,
-    rating: 4.5,
+    rating: 0.5,
     numReviews: 8,
   },
   {
     id: "38",
     name: "Olympique Lyon Away Jersey",
-    Image: require("../assets/images/Olympique-Lyon2.jpg"),
+    Image: require("../../assets/images/olympique-lyon2.jpg"),
     club: "Olympique Lyon",
     league: "Ligue 1",
     description:
@@ -534,7 +533,7 @@ export const Products = [
   {
     id: "39",
     name: "Paris Saint-Germain Home Jersey",
-    Image: require("../assets/images/Paris-Saint-Germain1.jpg"),
+    Image: require("../../assets/images/paris-saint-germain1.jpg"),
     club: "Paris Saint-Germain",
     league: "Ligue 1",
     description:
@@ -542,13 +541,13 @@ export const Products = [
     size: ["S", "M", "L", "XL", "2XL"],
     price: 55000,
     countInStock: 21,
-    rating: 4.7,
+    rating: 2.7,
     numReviews: 11,
   },
   {
     id: "40",
     name: "Paris Saint-Germain Away Jersey",
-    Image: require("../assets/images/Paris-Saint-Germain2.jpg"),
+    Image: require("../../assets/images/paris-saint-germain2.jpg"),
     club: "Paris Saint-Germain",
     league: "Ligue 1",
     description:
@@ -562,7 +561,7 @@ export const Products = [
   {
     id: "41",
     name: "Paris Saint-Germain Third Jersey",
-    Image: require("../assets/images/Paris-Saint-Germain3.jpg"),
+    Image: require("../../assets/images/paris-saint-germain3.jpg"),
     club: "Paris Saint-Germain",
     league: "Ligue 1",
     description:
@@ -576,11 +575,11 @@ export const Products = [
   {
     id: "42",
     name: "Paris Saint-Germain x Jordan Fourth Jersey",
-    Image: require("../assets/images/Paris-Saint-Germain4.jpg"),
+    Image: require("../../assets/images/paris-saint-germain4.jpg"),
     club: "Paris Saint-Germain",
     league: "Ligue 1",
     description:
-      "This is the aris Saint-Germain x Jordan authentic fourth jersey for the 2022-2023 season. The PSG Stadium Fourth Kids Shirt is inspired by the outfit worn by Paris Saint-Germain players during matches. It is designed in a sweat-wicking fabric and is made entirely from recycled polyester fibers. Name and Number Personalisation includes GOAT Sleeve Patch.",
+      "This is the Paris Saint-Germain x Jordan authentic fourth jersey for the 2022-2023 season. The PSG Stadium Fourth Kids Shirt is inspired by the outfit worn by Paris Saint-Germain players during matches. It is designed in a sweat-wicking fabric and is made entirely from recycled polyester fibers. Name and Number Personalisation includes GOAT Sleeve Patch.",
     size: ["S", "M", "L", "XL", "2XL"],
     price: 56000,
     countInStock: 18,
@@ -590,7 +589,7 @@ export const Products = [
   {
     id: "43",
     name: "RB Leipzig Home Jersey",
-    Image: require("../assets/images/rb-leipzig1.jpg"),
+    Image: require("../../assets/images/rb-leipzig1.jpg"),
     club: "RB Leipzig",
     league: "Bundesliga",
     description:
@@ -598,13 +597,13 @@ export const Products = [
     size: ["S", "M", "L", "XL", "2XL"],
     price: 46000,
     countInStock: 13,
-    rating: 4.7,
+    rating: 3.7,
     numReviews: 4,
   },
   {
     id: "44",
     name: "Real Madrid Home Jersey",
-    Image: require("../assets/images/real-madrid1.jpg"),
+    Image: require("../../assets/images/real-madrid1.jpg"),
     club: "Real Madrid",
     league: "La Liga",
     description:
@@ -618,7 +617,7 @@ export const Products = [
   {
     id: "45",
     name: "Real Madrid Away Jersey",
-    Image: require("../assets/images/real-madrid2.jpg"),
+    Image: require("../../assets/images/real-madrid2.jpg"),
     club: "Real Madrid",
     league: "La Liga",
     description:
@@ -632,7 +631,7 @@ export const Products = [
   {
     id: "46",
     name: "Real Madrid Third Jersey",
-    Image: require("../assets/images/real-madrid3.jpg"),
+    Image: require("../../assets/images/real-madrid3.jpg"),
     club: "Real Madrid",
     league: "La Liga",
     description:
@@ -646,7 +645,7 @@ export const Products = [
   {
     id: "47",
     name: "Valencia Home Jersey",
-    Image: require("../assets/images/valencia1.jpg"),
+    Image: require("../../assets/images/valencia1.jpg"),
     club: "Valencia",
     league: "La Liga",
     description:
@@ -660,7 +659,7 @@ export const Products = [
   {
     id: "48",
     name: "Valencia Away Jersey",
-    Image: require("../assets/images/valencia2.jpg"),
+    Image: require("../../assets/images/valencia2.jpg"),
     club: "Valencia",
     league: "La Liga",
     description:
@@ -668,13 +667,13 @@ export const Products = [
     size: ["S", "M", "L", "XL", "2XL"],
     price: 45000,
     countInStock: 16,
-    rating: 4.6,
+    rating: 3.6,
     numReviews: 6,
   },
   {
     id: "49",
     name: "Tottenham Hotspur Home  Jersey",
-    Image: require("../assets/images/tottenham-hotspur1.jpg"),
+    Image: require("../../assets/images/tottenham-hotspur1.jpg"),
     club: "Tottenham Hotspur",
     league: "Premier League",
     description:
@@ -688,7 +687,7 @@ export const Products = [
   {
     id: "50",
     name: "Tottenham Hotspur Away Jersey",
-    Image: require("../assets/images/tottenham-hotspur2.jpg"),
+    Image: require("../../assets/images/tottenham-hotspur2.jpg"),
     club: "Tottenham Hotspur",
     league: "Premier League",
     description:
@@ -702,7 +701,7 @@ export const Products = [
   {
     id: "51",
     name: "VfL Wolfsburg Home Jersey",
-    Image: require("../assets/images/vfl-wolfsburg1.jpg"),
+    Image: require("../../assets/images/vfl-wolfsburg1.jpg"),
     club: "VfL Wolfsburg",
     league: "Bundesliga",
     description:
@@ -716,7 +715,7 @@ export const Products = [
   {
     id: "52",
     name: "VfL Wolfsburg Away Jersey",
-    Image: require("../assets/images/vfl-wolfsburg2.jpg"),
+    Image: require("../../assets/images/vfl-wolfsburg2.jpg"),
     club: "VfL Wolfsburg",
     league: "Bundesliga",
     description:
@@ -728,3 +727,5 @@ export const Products = [
     numReviews: 7,
   },
 ];
+
+export default Products;
