@@ -7,7 +7,7 @@ function CartScreen() {
   return (
   <Box flex={1} safeAreaTop bg={Colors.white}>
   {/* Header */}
-  <Center w="full" py={5}>
+  <Center w="full" py={6}>
     <Text color={Colors.black} fontSize={20} bold>Cart</Text>
     </Center>
     {/*If Cart is Empty*/}
