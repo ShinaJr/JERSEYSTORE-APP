@@ -11,6 +11,7 @@ import {
 } from "@expo-google-fonts/lato";
 
 import StackNavigation from "./src/Navigations/StackNavigation";
+import CartScreen from "./src/Screens/CartScreen";
 
 export default function App() {
   let [fontsLoaded] = useFonts({
@@ -29,7 +30,8 @@ export default function App() {
         {/* <RegisterScreen /> */}
         {/* <NotVerifyScreen /> */}
         {/* <HomeScreen/> */}
-        <StackNavigation />
+        {/* <StackNavigation /> */}
+        <CartScreen/>
         {/* <SingleProductScreen /> */}
       </SafeAreaView>
     </NativeBaseProvider>
