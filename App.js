@@ -1,4 +1,5 @@
 import { StatusBar } from "expo-status-bar";
+import { LogBox } from "react-native"
 import { NativeBaseProvider, Box, Text } from "native-base";
 import { SafeAreaView } from "react-native-safe-area-context";
 // import AppLoading from "expo-app-loading";
@@ -13,6 +14,7 @@ import {
 import StackNavigation from "./src/Navigations/StackNavigation";
 import CartScreen from "./src/Screens/CartScreen";
 
+LogBox.ignoreLogs([ 'In React 18, SSRProvider is not necessary and is a noop. You can remove it from your app.', ])
 export default function App() {
   let [fontsLoaded] = useFonts({
     Lato_300Light,
@@ -29,9 +31,9 @@ export default function App() {
         {/* <LoginScreen /> */}
         {/* <RegisterScreen /> */}
         {/* <NotVerifyScreen /> */}
-        {/* <HomeScreen/> */}
+        <StackNavigation/>
         {/* <StackNavigation /> */}
-        <CartScreen/>
+        {/* <CartScreen/> */}
         {/* <SingleProductScreen /> */}
       </SafeAreaView>
     </NativeBaseProvider>
